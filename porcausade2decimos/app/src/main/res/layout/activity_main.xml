@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10px"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:paddingTop="10px"
+    tools:context="ifpb.edu.br.convite.activity.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCadastro"
+        android:text="@string/buttonCadastro"
+        android:layout_below="@+id/buttonCadastro"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBuscarNome"
+        android:text="Buscar nome"
+        android:layout_above="@+id/buttonBuscarNome"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
